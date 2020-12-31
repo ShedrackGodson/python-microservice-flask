@@ -31,7 +31,12 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="15434632-3d69-4fdb-ac5f-8714c305b3a0">
-      <console name="Connection" type="STANDARD" schema="main" session="Main" />
+      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[select
+    p.id,
+    p.image,
+    p.title
+from
+    product p;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
